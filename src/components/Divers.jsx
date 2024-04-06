@@ -3,8 +3,8 @@ import Banner from "./Banner"
 
 
 
-const Activites = () => {
-    const newHeading ="Activités Culturelles";
+const Divers = () => {
+    const newHeading ="Divers";
 
     return(
         <>
@@ -13,4 +13,4 @@ const Activites = () => {
     )
 }
 
-export default Activites
+export default Divers

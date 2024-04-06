@@ -9,9 +9,10 @@ import {
 import Banner from "./Banner"
 
 const Accueil = () => {
+    const newHeading ="Association des Professeurs d'Italien de la Région Parisienne";
     return(
     <>
-    <Banner></Banner>
+    <Banner heading={newHeading} />
     <div className="w-full py-10 flex justify-center font-montserrat">
         <div className="">
             <div className="">

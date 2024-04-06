@@ -12,13 +12,13 @@ module.exports = {
       'montserrat':['"Montserrat Alternates"'],
     },
     screens: {
-    sm: '640px',
+    sm: '320px',
 
-    md: '768px',
+    md: '425px',
 
-    lg: '1024px',
+    lg: '980px',
 
-    xl: '1280px',
+    xl: '1000px',
 
     '2xl':'1536px',
     },

@@ -13,7 +13,7 @@ const Accueil = () => {
     return(
     <>
     <Banner heading={newHeading} />
-    <div className="w-full py-10 flex justify-center font-montserrat">
+    <div className=" py-10 flex justify-center font-montserrat">
         <div className="">
             <div className="">
                 <h1 className="mb-5 font-medium">Bienvenue sur le site de l'Association des Professeurs d'Italien de la Région Parisienne </h1>

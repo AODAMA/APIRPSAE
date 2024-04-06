@@ -1,6 +1,13 @@
 import React, {useState} from "react"
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline"
+import { Link } from "react-router-dom"; // Import Link from React Router
+
 import logoImg from '../assets/logo.jpg'
+
+import App from '../App'
+import Activite from '../Activite'
+import Accueil from "./Accueil"
+
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
@@ -13,9 +20,9 @@ const Navbar = () => {
                 <div className="flex items-center">
                     <img className="mr-4 w-16 h-13" src={logoImg} alt="ERR" />
                     <ul className="hidden md:flex">
-                        <li className=" text-black hover:text-green-600 font-montserrat">Accueil</li>
+                        <li className=" text-black hover:text-green-600 font-montserrat"><Link to="/">Accueil</Link> {}</li>
                         <li className=" text-black hover:text-green-600 font-montserrat">Forum des associations franco-italiens</li>
-                        <li className=" text-black hover:text-green-600 font-montserrat">Activités culturelles</li>
+                        <li className=" text-black hover:text-green-600 font-montserrat"><Link to="/Activite">Activités Culturelles</Link> {}</li>
                         <li className=" text-black hover:text-green-600 font-montserrat">Nous connaître</li>
                         <li className=" text-black hover:text-green-600 font-montserrat">Adhérer</li>
                         <li className=" text-black hover:text-green-600 font-montserrat">Promouvoir l'italien</li>

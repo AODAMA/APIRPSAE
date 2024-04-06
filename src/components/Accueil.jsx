@@ -6,23 +6,25 @@ import {
     ServerIcon,
 } from "@heroicons/react/24/solid"
 
-import bgImg from '../assets/imagebanniere.jpg'
+import Banner from "./Banner"
 
 const Accueil = () => {
     return(
     <>
-    <div className="relative pt-12">
-        <img className="w-full h-13 sm" src={bgImg} alt="ERREUR IMAGE" />
-        <h2 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-green-500 text-3xl font-montserrat lg:text-2xl sm:text-sm md:text-md">Association des Professeurs d'Italien de la Région Parisienne</h2>
-    </div>
-    <div className="w-full h-screen bg-zinc-200  flex flex-col justify-between">
-        <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
-            <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
-                <h1>Bienvenue sur le site de l'Association des Professeurs d'Italien de la Région Parisienne </h1>
-                <p>Notre association a pour vocation: </p>
-                <ul>
-                    
-                </ul>
+    <Banner></Banner>
+    <div className="w-full py-10 flex justify-center font-montserrat">
+        <div className="">
+            <div className="">
+                <h1 className="mb-5 font-medium">Bienvenue sur le site de l'Association des Professeurs d'Italien de la Région Parisienne </h1>
+                    <div className="text-sm ">
+                    <p className="mb-1">Notre association a pour vocation: </p>
+                        <ul className="px-5 mb-3 list-disc ">
+                        <li className="">D’établir et développer des liens de solidarité et d’amitié entre les italianistes de la région parisienne ; </li>
+                        <li className="">De renseigner les professeurs d’italien à tous niveaux sur la diffusion de l’enseignement de l’italien en région parisienne ; </li>
+                        <li className="">De promouvoir l’enseignement de l’italien. </li>
+                    </ul>
+                   </div>
+                <p className="text-sm"><span className="font-bold">Pour nous contacter :</span> apirp.association@gmail.com </p>
             </div>
         </div>
     </div>

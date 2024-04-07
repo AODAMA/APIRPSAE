@@ -1,0 +1,71 @@
+/* CSS pour distinguer le titre et le menu */
+
+/* Style du titre */
+.titre {
+  font-size: 15px; /* Taille de la police pour le titre */
+}
+
+/* Style du menu */
+.menu {
+  font-size: 15px; /* Taille de la police pour le menu */
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #2f9c40;
+}
+
+.banniere {
+  width: 100%;
+  height: 100%; /* Assure que l'image conserve ses proportions */
+  max-height: 320px;
+}
+
+/* Style pour le Navbar */
+.navbar {
+  background-color: #DBE5E7;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Aligne les éléments sur les extrémités */
+  align-items: center; /* Centre verticalement les éléments */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #2f9c40;
+}
+

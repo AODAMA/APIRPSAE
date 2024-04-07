@@ -10,7 +10,7 @@ const Adherer = () => {
         <>
         <Banner heading={newHeading} />          
          <div className="flex flex-col items-center font-montserrat" id="pourquoi" >
-                <div className="max-w-screen-lg w-full py-10">
+                <div className="max-w-screen-lg w-full py-10 mb-10">
                     <h1 className="text-green-600 text-center font-semibold text-2xl mb-8" >Pourquoi adhérer?</h1>
                     <div className="flex items-center">
                         <div className="flex-1 ml-4 text-justify">
@@ -44,11 +44,11 @@ const Adherer = () => {
                             <p className="mb-12">
                             L’union faisant la force, l’A.P.I.R.P. est un moyen pour ne pas rester isolé et avoir des échanges actifs sur notre métier.
                             </p>
-                            <h1 className="text-green-600 text-center font-semibold text-2xl mt-10 mb-8" >Qui peut adhérer</h1>
+                            <h1 className="text-green-600 text-center font-semibold text-2xl mb-8" >Qui peut adhérer</h1>
                             <p className="mb-5">
                             Peuvent faire partie de l’Association tous les professeurs d’italien de la région parisienne en activité ou à la retraite, quel que soit l’ordre d’enseignement auquel ils appartiennent.
                             </p>
-                            <p className="mb-5 font-semibold">
+                            <p className="mb-5">
                             Comment adhérer
                             </p>
                             <p className="mb-5">
